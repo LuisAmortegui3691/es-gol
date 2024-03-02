@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- Bootstrap 5 -->
+    <!-- Latest compiled and minified CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Latest compiled JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Estilos personzalidos -->
+    <link rel="stylesheet" href="css/styles.css">
+
+</head>
+<body>
+    
+    <div class="container-fluid bg-primary">
+        <div class="container bg-success">
+            <!-- Cabecera -->
+            <div class="row">
+                <h1>Es Gol o no es Gol</h1>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid">
+        <div class="container">
+            <div class="row ancho">
+                <form id="formulario" class="formulario">
+                    <div class="container-form">
+                        <label for="a">Dato a</label>
+                        <input type="text" class="dato" id="a">
+
+                        <label for="b">Dato b</label>
+                        <input type="text" class="dato" id="b">
+
+                        <label for="c">Dato c</label>
+                        <input type="text" class="dato" id="c">
+
+                        <label for="d">Dato d</label>
+                        <input type="text" class="dato" id="d">
+
+                        <label for="x">Dato x</label>
+                        <input type="text" class="dato" id="x">
+
+                        <label for="y">Dato y</label>
+                        <input type="text" class="dato" id="y">
+
+                        <button type="button" id="capturarBtn" class="design-btn btn-position">Capturar datos</button>
+                    </div>                    
+                </form>
+                <div class="row respuesta">
+                    <input type="text" class="respuesta" id="result">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/balon.js"></script>
+</body>
+</html>
